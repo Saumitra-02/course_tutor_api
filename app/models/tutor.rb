@@ -3,6 +3,6 @@ class Tutor < ApplicationRecord
 
   validates :name, presence: true
   validates :email, presence: true,
-                   uniqueness: { case_insensitive: false },
+                   uniqueness: { case_sensitive: false },
                    format: { with: URI::MailTo::EMAIL_REGEXP }
 end

@@ -4,6 +4,8 @@ A RESTful API built with Ruby on Rails and PostgreSQL for managing courses and t
 
 **Live API:** https://course-tutor-api-c1so.onrender.com
 
+Testing screenshots for the lie API and RSpec are added in the section 'Testing Evidence' of thi readme
+
 ## Overview
 
 The Course Tutor API allows clients to create courses along with their tutors and retrieve courses with their associated tutor information.
